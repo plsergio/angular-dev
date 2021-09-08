@@ -24,7 +24,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	"postCreateCommand": "yarn install && yarn build",
+	"postCreateCommand": "yarn install && ng build",
 
 	"postStartCommand": "ng serve --open",
 
