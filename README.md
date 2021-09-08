@@ -1,7 +1,6 @@
 # angular-dev
 
 ## Subir
-``cd app``
 
 ``ng serve --open``
 

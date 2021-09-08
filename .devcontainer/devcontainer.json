@@ -7,7 +7,8 @@
 		// Update 'VARIANT' to pick a Node version: 12, 14, 16
 		"args": { "VARIANT": "16" }
 	},
-	// "workspaceFolder": "./app",
+
+	"workspaceFolder": "/app",
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
@@ -22,8 +23,9 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
+
+	// "postStartCommand": "ng build",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node"
