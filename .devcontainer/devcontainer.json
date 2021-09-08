@@ -18,13 +18,14 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"dbaeumer.vscode-eslint",
-		"doggy8088.angular-extension-pack"
+		"doggy8088.angular-extension-pack",
+		"firefox-devtools.vscode-firefox-debug"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	"postCreateCommand": "yarn install && ng build",
+	"postCreateCommand": "npm install && ng build",
 
 	"postStartCommand": "ng serve --open",
 
