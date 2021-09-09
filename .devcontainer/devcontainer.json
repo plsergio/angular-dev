@@ -27,7 +27,7 @@
 
 	"postCreateCommand": "npm install && ng build",
 
-	// "postStartCommand": "ng serve --open",
+	"postStartCommand": "ng serve --open",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node"
